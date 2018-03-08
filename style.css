@@ -1,0 +1,82 @@
+@media all and (orientation: portrait) {
+  #player {
+    height: 40vh;
+  }
+}
+
+@media all and (orientation: landscape) {
+  #player {
+    height: 90vh;
+    width: 90vw;
+    margin: auto;
+  }
+}
+
+.search-bar {
+  background: #e52d27;
+  width: 100%;
+  position: fixed;
+  display: block;
+  z-index: 2;
+}
+
+v-ons-col > .center {
+  padding-right: 15px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+v-ons-col > .left {
+  align-self: flex-start;
+  min-width: 104px;
+}
+
+v-ons-page:not([modifier~=material]) > .search-bar ~ .content {
+  margin-top: 49px;
+}
+
+.after-list {
+  margin: 20px 0;
+  color: #999;
+  font-size: 15px;
+  text-align: center;
+}
+
+.thumbnail {
+  width: 88px;
+}
+
+.title {
+  font-weight: 500;
+  line-height: 16px;
+  font-size: 15px;
+  margin-bottom: 6px;
+  width: 100%;
+}
+
+.user {
+  font-size: 12px;
+  opacity: 0.8;
+  color: #e52d27;
+  margin-bottom: 6px;
+  width: 100%;
+}
+
+.desc {
+  line-height: 1.2;
+  font-size: 13px;
+  width: 100%;
+}
+
+.android-search-modal {
+  background-color: rgba(0,0,0,.05);
+}
+
+.android-search-bar {
+  background-color: #fff;
+}
+
+.android-search-bar ons-input {
+  width: 100%;
+}
